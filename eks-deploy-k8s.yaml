@@ -36,7 +36,7 @@ spec:
   - name: http
     port: 80
     protocol: TCP
-    targetPort: 8085
+    targetPort: 9191
   type: LoadBalancer
   selector:
     app: springboot-app
